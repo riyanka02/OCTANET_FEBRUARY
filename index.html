@@ -1,200 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitFusion - The best fitness gym in the town</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>To Do List App</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils.css">
 </head>
-<section id="Title" class="linear_gradient">
-<body class='overflow-x-hidden'>
-    <div class="container mx-auto">
-        <header>
-            <nav class="flex justify-between">
-                <div class="logo font-bold flex items-center text-blue">FitFusion <img src="fitfusion.png" height="70px" alt="FitFusion Logo"></div>
-                <ul class="navbar flex items-center">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
-                    <li><button class="btn">Join Now</button></li>
-                </ul>
-            </nav>
-            <hr>
-        </header>
-        <main class="min-h-screen">
-            <section class="section1">
-                <div class="flex">
-                    <div class="topleft flex flex-col justify-center px-2">
-                        <div class=" text-center">
-                            <img class="dumbellimg" src="dumbell.png" alt="">
-                        </div>
-                        <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
-                        <p class=" text-center">Welcome to the epitome of fitness excellence in our town! We take immense pride in presenting the best fitness gym that stands as a beacon of health and wellness. Our state-of-the-art facility is meticulously designed to provide an unparalleled fitness experience, catering to enthusiasts of all levels. With a commitment to excellence, we offer a dynamic range of cutting-edge equipment, expert trainers, and personalized fitness plans. Our gym isn't just a place to work out; it's a community that fosters support, motivation, and a shared passion for a healthy lifestyle. Whether you're a seasoned fitness enthusiast or just embarking on your wellness journey, our gym is your dedicated partner in achieving your goals. Join us, and let's embark on a transformative journey together, unlocking the best version of yourself. Your fitness adventure begins here – where health meets excellence!</p>
-                            <!-- Display the countdown timer in an element -->
-            
-                            <div class="buttons">
-                                <button class="btn">Join now</button>
-                                <button class="btn">Contact Us</button>
-                            </div>
-                    </div>
-                    <div class="topright flex justify-center">
-                        <img class="gymimg" src="gym1.jpg" alt="Gympic">
-                    </div>
-                </div>
-            </section>
-            <hr>
-            <section class="section2">
-                <div class="container px-4 py-5" id="featured-3">
-                    <h2 class="pb-2 border-bottom">Why to join us?</h2>
-                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                      <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
-                        </div>
-                        <img src="cuttingedge.jpg"height="200px" width="200px">
-                        <h3 class="fs-2 text-body-emphasis">Cutting-edge Equipment</h3>
-                      
-                        <b>Experience the latest in fitness technology with our top-of-the-line equipment. From cardio machines to strength training gear, we've got everything you need for a well-rounded workout.</b>
-                        <a href="#" class="icon-link">
-                          Gym Equipment
-                          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                      </div>
-                      <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
-                        </div>
-                        <img src="trainer.jpg"height="200px" width="200px">
-                        <h3 class="fs-2 text-body-emphasis">Expert Trainers</h3>
-                        <b>Our team of experienced and certified trainers is dedicated to helping you reach your fitness goals. Whether you're a beginner or an advanced fitness enthusiast, our trainers are here to guide and motivate you.</b>
-                        <a href="#" class="icon-link">
-                          Gym Trainers
-                          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                      </div>
-                      <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
-                        </div>
-                        <img src="fitnessplan.jpg"height="200px" width="200px">
-                        <h3 class="fs-2 text-body-emphasis">Personalized Fitness Plans</h3>
-                        <b>We understand that every individual is unique. That's why we offer personalized fitness plans tailored to your specific goals, fitness level, and lifestyle. Your journey to a healthier you begins with a plan designed just for you.</b>
-                        <a href="#" class="icon-link">
-                          Fitness Plans
-                          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-            </section>
-            <section class="section3">
-                <h1 class="text-center my-2">Pricing</h1>
-                <p class="my-2">Introducing the new pricing plans for our premium fitness experience at FitFusion! We believe in making health and wellness accessible to everyone, and our pricing reflects that commitment. Choose the plan that suits your fitness goals and lifestyle!</p>
-                <div class="boxes flex justify-center">
-                    <div class="box">
-                        <h2>Starter Package</h2>
-                        <ul>
-                            <li class="highlighted">$29.99/month</li>
-                            <li>Full access to our cutting-edge gym equipment.</li>
-                            <li>Basic fitness assessments.</li>
-                            <li>Access to group fitness classes.</li>
-            
-                            <li><button class="btn">Signup Now</button></li>
-                        </ul>
-                    </div>
-                    <div class="box">
-                        <h2>Standard Package </h2>
-                        <ul>
-                            <li class="highlighted">$49.99/month</li>
-                            <li>Everything in the Starter Package.</li>
-                            <li>Personalized workout plans.</li>
-                            <li>Priority booking for classes.</li>
-                            <li>Quarterly fitness check-ins with our expert trainers.</li>
-                            <li><button class="btn">Signup Now</button></li>
-                        </ul>
-                    </div>
-                    <div class="box">
-                        <h2>Ultimate Fitness Package </h2>
-                        <ul>
-                            <li class="highlighted">$79.99/month</li>
-                            <li>Everything in the Standard Package.</li>
-                            <li>Unlimited access to all classes.</li>
-                            <li>Nutritional guidance and meal planning.</li>
-                            <li>Gym Membership.</li>
-                            <li>One-on-one sessions with a personal trainer.</li>
-                            <li><button class="btn">Signup Now</button></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <hr>
-            <section class="section4">
-                <h1 class="text-center my-2">Compare Plans</h1>
-                <div class="container plantable">
-                    <table class="table text-center">
-                      <thead>
-                        <tr>
-                          <th></th><th>Starter Package</th>
-                          <th>Standard Package</th>
-                          <th>Ultimate Fitness Package</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row" class="text-start">Public</th>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Private</th>
-                          <td>-</td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                      </tbody>
+<body>
+    <div class="container">
+        <div class="todo-app">
+
+            <div id="myDIV" class="header">
+                <h2>My To Do List<img src="Todoapp.jpg"></h2>
+                <input type="text" id="myInput" placeholder="Title...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+              </div>
               
-                      <tbody>
-                        <tr>
-                          <th scope="row" class="text-start">Permissions</th>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Sharing</th>
-                          <td>-</td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Unlimited members</th>
-                          <td>-</td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Extra security</th>
-                          <td>-</td>
-                          <td>-</td>
-                          <td>Yes</svg></td>
-                        </tr>
-                      </tbody>
-                    </table>
-            </section>
-            <hr>
-        </main>
-        <footer>
-            Copyright &copy; FitFusion.com | All rights reserved
-        </footer>
-
+              <ul id="myUL">
+                <li>Hit the gym</li>
+                <li class="checked">Pay bills</li>
+                <li>Meet George</li>
+                <li>Buy eggs</li>
+                <li>Read a book</li>
+                <li>Organize office</li>
+              </ul>
+              
+            <div class="row">
+                <input type="date" id="deadline-input">
+                <select id="priority-input">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
     </div>
-  </section>
+    <script src="script.js"></script>
 </body>
-
 </html>
